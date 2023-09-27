@@ -1,0 +1,26 @@
+{
+  "name": "@binary-butterfly/eslint-plugin-no-new-comparisons",
+  "version": "0.0.1",
+  "private": false,
+  "author": "binary butterfly GmbH",
+  "license": "MIT",
+  "main": "src/eslint-plugin-no-new-comparisons.js",
+  "scripts": {
+    "test": "node src/__tests__/no-new-comparisons.test.js"
+  },
+  "files": [
+    "src/no-new-comparisons.js",
+    "src/eslint-plugin-no-new-comparisons.js"
+  ],
+  "homepage": "https://github.com/binary-butterfly/eslint-plugin-no-new-comparisons",
+  "bugs": {
+    "url": "https://github.com/binary-butterfly/eslint-plugin-no-new-comparisons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binary-butterfly/eslint-plugin-no-new-comparisons.git"
+  },
+  "peerDependencies": {
+    "eslint": "^8.50.0"
+  }
+}
