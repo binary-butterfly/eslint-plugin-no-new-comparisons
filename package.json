@@ -1,9 +1,15 @@
 {
   "name": "@binary-butterfly/eslint-plugin-no-new-comparisons",
+  "description": "An eslint plugin that prevents comparisons with newly created objects or arrays",
   "version": "0.0.1",
   "private": false,
   "author": "binary butterfly GmbH",
   "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
   "main": "src/eslint-plugin-no-new-comparisons.js",
   "scripts": {
     "test": "node src/__tests__/no-new-comparisons.test.js"
