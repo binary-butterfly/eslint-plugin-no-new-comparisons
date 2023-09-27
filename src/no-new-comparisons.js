@@ -18,7 +18,7 @@ module.exports = {
                 ) {
                     context.report({
                         node,
-                        message: 'Comparison of a value with a newly created array',
+                        message: 'Comparison of a value with a newly created array or object',
                     });
                 }
             },
