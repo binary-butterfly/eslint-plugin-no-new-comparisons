@@ -29,3 +29,5 @@ if (arr.length === 0) {
 
 - Run `npm install --save-dev @binary-butterfly/eslint-plugin-no-new-comparisons`
 - Add `@binary-butterfly/eslint-plugin-no-new-comparisons` to the `plugins` array of your eslint config
+- Add `"@binary-butterfly/no-new-comparisons/no-new-array-or-object-comparisons": error` to the `rules` object of your
+  eslint config
