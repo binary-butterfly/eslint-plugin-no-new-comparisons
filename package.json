@@ -3,6 +3,9 @@
   "description": "An eslint plugin that prevents comparisons with newly created objects or arrays",
   "version": "0.0.1",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "binary butterfly GmbH",
   "license": "MIT",
   "keywords": [
