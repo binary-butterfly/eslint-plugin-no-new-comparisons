@@ -30,6 +30,6 @@
     "url": "git+https://github.com/binary-butterfly/eslint-plugin-no-new-comparisons.git"
   },
   "peerDependencies": {
-    "eslint": "^8.50.0"
+    "eslint": "^8.50.0||^9.0.0||^10.0.0"
   }
 }
